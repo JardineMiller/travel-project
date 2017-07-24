@@ -1,18 +1,17 @@
+// All of the super awesome tools
 var gulp = require('gulp'),
-	postcss = require('gulp-postcss'),
-	autoprefix = require('autoprefixer'),
  	watch = require('gulp-watch'),
  	cssvars = require('postcss-simple-vars'),
+ 	postcss = require('gulp-postcss'),
+	autoprefix = require('autoprefixer'),
  	nested = require('postcss-nested');
 
-gulp.task("default", function () {
-	console.log("Hooray! You created a Gulp Task");
-});
-
+// A basic GULP task
 gulp.task("html", function () {
 	console.log("Imagine something useful being done to your HTML here.");
 });
 
+// Compiles CSS through PostCSS Filter whenever styles.css is saved
 gulp.task("styles", function () {
 	return gulp.src("./app/assets/styles/styles.css")
 	.pipe(postcss([autoprefix, cssvars, nested]))
