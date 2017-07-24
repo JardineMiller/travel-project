@@ -1,0 +1,15 @@
+$mainblue: #2E04F0;
+$black: #000;
+
+body {
+	padding: 25px;
+	margin: 20px;
+	columns: 300px 2;
+	color: $mainblue;
+	background: $black;
+
+p {
+	font-family: Helvetica;
+}
+
+}

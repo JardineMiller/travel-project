@@ -1,0 +1,13 @@
+body {
+	padding: 25px;
+	margin: 20px;
+	-webkit-columns: 300px 2;
+	        columns: 300px 2;
+	color: #2E04F0;
+	background: #000;
+
+}
+
+body p {
+	font-family: Helvetica;
+}
