@@ -1,0 +1,62 @@
+.row {
+	@mixin clearfix;
+
+	&--gutters > div {
+		padding-right: 65px;
+	}
+
+	&--gutters {
+		margin-right: -65px;
+	}
+
+	@mixin atMedium {
+		&__medium-col-1 {
+			float: left;
+			width: calc(8.3333% * 1);
+		}
+		&__medium-col-2 {
+			float: left;
+			width: calc(8.3333% * 2);
+		}
+		&__medium-col-3 {
+			float: left;
+			width: calc(8.3333% * 3);
+		}
+		&__medium-col-4 {
+			float: left;
+			width: calc(8.3333% * 4);
+		}
+		&__medium-col-5 {
+			float: left;
+			width: calc(8.3333% * 5);
+		}
+		&__medium-col-6 {
+			float: left;
+			width: calc(8.3333% * 6);
+		}
+		&__medium-col-7 {
+			float: left;
+			width: calc(8.3333% * 7);
+		}
+		&__medium-col-8 {
+			float: left;
+			width: calc(8.3333% * 8);
+		}
+		&__medium-col-9 {
+			float: left;
+			width: calc(8.3333% * 9);
+		}
+		&__medium-col-10 {
+			float: left;
+			width: calc(8.3333% * 10);
+		}
+		&__medium-col-11 {
+			float: left;
+			width: calc(8.3333% * 11);
+		}
+		&__medium-col-12 {
+			float: left;
+			width: calc(8.3333% * 12);
+		}
+	}
+}

@@ -1,15 +1,17 @@
-$mainblue: #2E04F0;
-$black: #000;
 
-body {
-	padding: 25px;
-	margin: 20px;
-	columns: 300px 2;
-	color: $mainblue;
-	background: $black;
+@import "normalize.css";
+@import "base/global.css";
+@import "base/variables.css";
+@import "base/mixins.css";
+@import "modules/btn";
+@import "modules/large-hero";
+@import "modules/wrapper";
+@import "modules/page-section";
+@import "modules/headline";
+@import "modules/row";
 
-p {
-	font-family: Helvetica;
-}
 
-}
+
+
+
+
